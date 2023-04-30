@@ -19,7 +19,7 @@ class Database {
     // Will be set by function runQuery. 0 or -1 (error) mean that no rows were affected
     public $affectedRows = 0;
     
-	// Object which represents the connection to the MySQL Server
+    // Object which represents the connection to the MySQL Server
     private $link;
     
 
@@ -29,7 +29,7 @@ class Database {
      * @param string $host      MySQL hostname
      * @param string $username  MySQL username
      * @param string $password  MySQL password
-     * @param string $baseName MySQL name of the database
+     * @param string $baseName  MySQL name of the database
      * @return void
      * @throws Exception in case of failure to connect, or failure to select the database
      */
